@@ -1,4 +1,4 @@
-var adminpassword = 'ResearchDragon';
+var adminpassword = 1;
 var studentDummyUser = "bhan";
 var studentDummyPw = "hi";
 
