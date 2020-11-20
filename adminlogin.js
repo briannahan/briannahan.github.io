@@ -5,5 +5,8 @@ function login(){
   if(console.log(password===adminpassword)){
     location.assign("viewrequests.html");
   }
+  else{
+    location.assign("viewrequests.html");
+  }
 }
 
