@@ -1,8 +1,9 @@
 
 function adminlogin(){
-  var adminpassword = 1;
+  let adminpassword = 1;
   
-  var password = document.getElementById("password").value;
+  let password = document.getElementById("password").value;
+  window.alert(password);
   if(password==adminpassword){
     location.assign("viewrequests.html");
   }
@@ -12,11 +13,11 @@ function adminlogin(){
 }
 
 function studentlogin(){
-  var studentDummyUser = "bhan";
-  var studentDummyPw = "hi";
+  let studentDummyUser = "bhan";
+  let studentDummyPw = "hi";
   
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
+  let username = document.getElementById("username").value;
+  let password = document.getElementById("password").value;
   if(password==studentDummyUser && password==studentDummyPw){
     location.assign("viewrequests.html");
   }
