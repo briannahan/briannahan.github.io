@@ -7,6 +7,7 @@ function adminlogin(){
     location.assign("viewrequests.html");
   }
   else{
+    window.alert("Incorrect password");
     location.assign("adminlogin.html");
   }
 }
