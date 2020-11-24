@@ -5,6 +5,7 @@ function adminlogin(){
   let password = document.getElementById("password").value;
   window.alert(password);
   if(password==adminpassword){
+    window.alert("hfdjksahkjhslf");
     location.assign("viewrequests.html");
   }
   else{
