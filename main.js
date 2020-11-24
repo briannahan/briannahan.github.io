@@ -18,6 +18,7 @@ function studentlogin(){
   
   let username = document.getElementById("username").value;
   let password = document.getElementById("password").value;
+  window.alert(password==studentDummyUser && password==studentDummyPw);
   if(password==studentDummyUser && password==studentDummyPw){
     location.assign("viewrequests.html");
   }
