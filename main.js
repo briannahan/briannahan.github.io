@@ -8,7 +8,7 @@ function adminlogin(){
     location.assign("viewrequests.html");
   }
   else{
-    location.assign("viewrequests.html");
+    location.assign("adminlogin.html");
   }
 }
 
