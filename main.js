@@ -1,8 +1,9 @@
-var adminpassword = 1;
-var studentDummyUser = "bhan";
-var studentDummyPw = "hi";
 
 function adminlogin(){
+  var adminpassword = 1;
+  var studentDummyUser = "bhan";
+  var studentDummyPw = "hi";
+  
   var password = document.getElementById("password").value;
   if(password==adminpassword){
     location.assign("viewrequests.html");
