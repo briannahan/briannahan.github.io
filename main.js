@@ -1,14 +1,9 @@
 
 function adminlogin(){
-  let adminpassword = "1";
+  let adminpassword = "ResearchDragon";
   
   let password = document.getElementById("password").value;
-  window.alert(password);
-  window.alert(password==adminpassword);
-  window.alert(password===adminpassword);
-  window.alert(password.equals(password));
   if(password==adminpassword){
-    window.alert("hfdjksahkjhslf");
     location.assign("viewrequests.html");
   }
   else{
