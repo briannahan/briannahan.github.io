@@ -4,7 +4,7 @@ var studentDummyPw = "hi";
 
 function adminlogin(){
   var password = document.getElementById("password").value;
-  if(console.log(password===adminpassword)){
+  if(console.log(password==adminpassword)){
     location.assign("viewrequests.html");
   }
   else{
@@ -15,7 +15,7 @@ function adminlogin(){
 function studentlogin(){
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
-  if(console.log(password===studentDummyUser)&&console.log(password===studentDummyPw)){
+  if(console.log(password==studentDummyUser)&&console.log(password===studentDummyPw)){
     location.assign("viewrequests.html");
   }
   else{
