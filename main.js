@@ -22,7 +22,7 @@ function studentlogin(){
   let username = document.getElementById("username").value;
   let password = document.getElementById("password").value;
   if(username==studentDummyUser && password==studentDummyPw){
-    location.assign("viewrequests.html");
+    location.assign("enterrequest.html");
   }
   else{
     window.alert("Incorrect username and/or password");
