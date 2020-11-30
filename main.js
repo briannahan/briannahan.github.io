@@ -1,3 +1,6 @@
+function toHome(){
+  location.assign("index.html");
+}
 
 function adminlogin(){
   let adminpassword = "ResearchDragon";
