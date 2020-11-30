@@ -18,12 +18,11 @@ function studentlogin(){
   
   let username = document.getElementById("username").value;
   let password = document.getElementById("password").value;
-  window.alert(username);
   if(username==studentDummyUser && password==studentDummyPw){
     location.assign("viewrequests.html");
   }
   else{
-    window.alert(password);
+    window.alert("Incorrect username and/or password");
     location.assign("studentlogin.html");
   }
 }
