@@ -32,4 +32,8 @@ function submitRequest(){
   let hrout = document.getElementById("hrout").value;
   let minout = document.getElementById("minout").value;
   let meeting = document.getElementById("meeting").value;
+  
+  let hr = hrout-hrin;
+  let min = minout-minin;
+  
 }
