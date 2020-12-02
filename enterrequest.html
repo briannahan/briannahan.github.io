@@ -6,9 +6,23 @@
   <br><br>
   <p style="text-align: center">
     <label for="hrin">Time in:</label>
-    <input type="text" id="hrin" name="hrin" style="width: 25px;" maxlength="2">:<input type="text" id="minin" name="minin" style="width: 25px;" maxlength="2"><br>
+    <input type="text" id="hrin" name="hrin" style="width: 25px;" maxlength="2">:<input type="text" id="minin" name="minin" style="width: 25px;" maxlength="2">
+    <input type="radio" id="AM" name="whenin" value="AM">
+    <label for="AM">AM</label>
+    <input type="radio" id="PM" name="whenin" value="PM">
+    <label for="PM">PM</label>
+    
+    <br>
+    
     <label for="hrout">Time out:</label>
-    <input type="text" id="hrout" name="hrout" style="width: 25px;" maxlength="2">:<input type="text" id="minout" name="minout" style="width: 25px;" maxlength="2"><br>
+    <input type="text" id="hrout" name="hrout" style="width: 25px;" maxlength="2">:<input type="text" id="minout" name="minout" style="width: 25px;" maxlength="2">
+    <input type="radio" id="AM" name="whenout" value="AM">
+    <label for="AM">AM</label>
+    <input type="radio" id="PM" name="whenout" value="PM">
+    <label for="PM">PM</label>
+    
+    <br>
+    
     <label for="meeting">Meeting: </label>
     <input type="checkbox" id="meeting" name="meeting" value="present"><br>
     <input type="button" value="Submit" onclick="submitrequest()">
