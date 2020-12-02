@@ -25,3 +25,11 @@ function studentlogin(){
     location.assign("studentlogin.html");
   }
 }
+
+function submitRequest(){
+  let hrin = document.getElementById("hrin").value;
+  let minin = document.getElementById("minin").value;
+  let hrout = document.getElementById("hrout").value;
+  let minout = document.getElementById("minout").value;
+  let meeting = document.getElementById("meeting").value;
+}
