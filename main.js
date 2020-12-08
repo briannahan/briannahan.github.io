@@ -42,4 +42,15 @@ function submitRequest(){
     hrin = 0;
   }
   window.alert(hrin);
+  if (whenout == "PM" && hrout != 12){
+    hrout = hrout + 12;
+  }
+  else if (whenout == "AM" && hrout == 12){
+    hrout = 0;
+  }
+  window.alert(hrout);
+  let hrs = hrout - hrin;
+  let mins = minout - minin;
+  let minutes = hrs*60 + mins;
+  window.alert(minutes);
 }
