@@ -26,7 +26,7 @@ function studentlogin(){
   }
 }
 
-function submitRequest(){
+/*function submitRequest(){
   window.alert("confetti");
   let hrin = document.getElementById("hrin").value;
   let minin = document.getElementById("minin").value;
@@ -56,3 +56,4 @@ function submitRequest(){
   let minutes = hrs*60 + mins;
   window.alert(minutes);
 }
+*/
