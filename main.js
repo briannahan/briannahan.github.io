@@ -27,6 +27,7 @@ function studentlogin(){
 }
 
 function submitRequest(){
+  window.alert("confetti");
   let hrin = document.getElementById("hrin").value;
   let minin = document.getElementById("minin").value;
   let whenin = document.getElementById("whenin").value;
@@ -35,6 +36,7 @@ function submitRequest(){
   let whenout = document.getElementById("whenout").value;
   let meeting = document.getElementById("meeting").value;
   
+  if (typeof hrin == "number" 
   if (whenin == "PM" && hrin != 12){
     hrin = hrin + 12;
   }
