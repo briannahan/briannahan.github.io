@@ -35,7 +35,11 @@ function submitRequest(){
   let whenout = document.getElementById("whenout").value;
   let meeting = document.getElementById("meeting").value;
   
-  let hr = hrout-hrin;
-  let min = minout-minin;
-  
+  if (whenin == "PM" && hrin != 12){
+    hrin = hrin + 12;
+  }
+  else if (whenin == "AM" && hrin == 12){
+    hrin = 0;
+  }
+  window.alert(hrin);
 }
