@@ -26,34 +26,7 @@ function studentlogin(){
   }
 }
 
-/*function submitRequest(){
+function submitRequest(){
   window.alert("confetti");
-  let hrin = document.getElementById("hrin").value;
-  let minin = document.getElementById("minin").value;
-  let whenin = document.getElementById("whenin").value;
-  let hrout = document.getElementById("hrout").value;
-  let minout = document.getElementById("minout").value;
-  let whenout = document.getElementById("whenout").value;
-  let meeting = document.getElementById("meeting").value;
-  
-  if (typeof hrin == "number" 
-  if (whenin == "PM" && hrin != 12){
-    hrin = hrin + 12;
-  }
-  else if (whenin == "AM" && hrin == 12){
-    hrin = 0;
-  }
-  window.alert(hrin);
-  if (whenout == "PM" && hrout != 12){
-    hrout = hrout + 12;
-  }
-  else if (whenout == "AM" && hrout == 12){
-    hrout = 0;
-  }
-  window.alert(hrout);
-  let hrs = hrout - hrin;
-  let mins = minout - minin;
-  let minutes = hrs*60 + mins;
-  window.alert(minutes);
 }
-*/
+
