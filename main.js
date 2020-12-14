@@ -28,5 +28,11 @@ function studentlogin(){
 
 function submitRequest(){
   window.alert("confetti");
+  let timein = document.getElementById("timein").value;
+  let timeout = document.getElementById("timeout").value;
+  let meeting = document.getElementById("meeting").value;
+  window.alert("timein=" + timein);
+  window.alert("timeout=" + timeout);
+  window.alert("meeting=" + meeting);
 }
 
