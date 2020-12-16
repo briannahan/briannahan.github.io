@@ -33,5 +33,12 @@ function submitRequest(){
   let meeting = document.getElementById("meeting").checked;
   window.alert(timein);
   window.alert(timeout);
+  if (timeout[0].parseInt()-timein[0].parseInt()<0){
+    let minutes = 60*(24+timeout[0].parseInt()-timein[0].parseInt());
+    minutes = minutes + timeout[1].parseInt()-timein[1].parseInt();
+    }
+  else{
+    let minutes = 60*(timeout[0].parseInt()-timein[0].parseInt())+timeout[1].parseInt()-timein[1].parseInt();
+  }
 }
 
