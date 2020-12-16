@@ -28,17 +28,10 @@ function studentlogin(){
 
 function submitRequest(){
   window.alert("confetti");
-  //if (document.getElementById("timein").value.length()==0 || document.getElementById("timeout").value.length()==0){
-    window.alert("Please enter a time in and time out");
-  //}
-  //else{
-    let timein = document.getElementById("timein").value;
-    let timeout = document.getElementById("timeout").value;
-    let meeting = document.getElementById("meeting").checked;
-    window.alert("timein=" + timein);
-    window.alert("timeout=" + timeout);
-    window.alert("meeting=" + meeting);
-  window.alert(document.getElementById("timein").value.length());
-  //}
+  let timein = document.getElementById("timein").value.split(":");
+  let timeout = document.getElementById("timeout").value.split(":");
+  let meeting = document.getElementById("meeting").checked;
+  window.alert(timein);
+  window.alert(timeout);
 }
 
