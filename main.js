@@ -38,6 +38,7 @@ function submitRequest(){
     window.alert("timein=" + timein);
     window.alert("timeout=" + timeout);
     window.alert("meeting=" + meeting);
+  window.alert(document.getElementById("timein").value.length());
   //}
 }
 
