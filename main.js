@@ -27,18 +27,19 @@ function studentlogin(){
 }
 
 function submitRequest(){
-  window.alert("confetti");
   let timein = document.getElementById("timein").value.split(":");
   let timeout = document.getElementById("timeout").value.split(":");
   let meeting = document.getElementById("meeting").checked;
   window.alert(timein);
   window.alert(timeout);
+  let minutes = 0;
   if (timeout[0].parseInt()-timein[0].parseInt()<0){
-    let minutes = 60*(24+timeout[0].parseInt()-timein[0].parseInt());
+    minutes = 60*(24+timeout[0].parseInt()-timein[0].parseInt());
     minutes = minutes + timeout[1].parseInt()-timein[1].parseInt();
     }
   else{
-    let minutes = 60*(timeout[0].parseInt()-timein[0].parseInt())+timeout[1].parseInt()-timein[1].parseInt();
+    minutes = 60*(timeout[0].parseInt()-timein[0].parseInt())+timeout[1].parseInt()-timein[1].parseInt();
   }
+  window.alert(minutes);
 }
 
