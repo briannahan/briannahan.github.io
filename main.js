@@ -40,6 +40,6 @@ function submitRequest(){
   else{
     minutes = 60*(timeout[0].parseInt()-timein[0].parseInt())+timeout[1].parseInt()-timein[1].parseInt();
   }
-  window.alert(minutes);
+  window.alert("minutes="minutes);
 }
 
