@@ -36,10 +36,10 @@ function submitRequest(){
   if (timeout[0].parseInt()-timein[0].parseInt()<0){
     minutes = 60*(24+timeout[0].parseInt()-timein[0].parseInt());
     minutes = minutes + timeout[1].parseInt()-timein[1].parseInt();
-    }
+  }
   else{
     minutes = 60*(timeout[0].parseInt()-timein[0].parseInt())+timeout[1].parseInt()-timein[1].parseInt();
   }
-  window.alert("minutes="minutes);
+  window.alert("minutes=" + minutes);
 }
 
