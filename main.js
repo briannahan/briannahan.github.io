@@ -34,10 +34,12 @@ function submitRequest(){
   window.alert(timeout);
   let minutes = 0;
   if (timeout[0].parseInt()-timein[0].parseInt()<0){
+    window.alert("heyheh");
     minutes = 60*(24+timeout[0].parseInt()-timein[0].parseInt());
     minutes = minutes + timeout[1].parseInt()-timein[1].parseInt();
   }
   else{
+    window.alert("heyheh");
     minutes = 60*(timeout[0].parseInt()-timein[0].parseInt())+timeout[1].parseInt()-timein[1].parseInt();
   }
   window.alert("heyheh");
