@@ -33,6 +33,7 @@ function submitRequest(){
   window.alert(timein);
   window.alert(timeout);
   window.alert(timeout[0]);
+  window.alert(timeout[0].parseInt());
   let minutes = 0;
   if (timeout[0].parseInt()-timein[0].parseInt()<0){
     window.alert("heyheh");
