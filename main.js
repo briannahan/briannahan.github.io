@@ -33,16 +33,15 @@ function submitRequest(){
   window.alert(timein);
   window.alert(timeout);
   window.alert(timeout[0]);
-  window.alert(timeout[0].parseInt());
   let minutes = 0;
-  if (timeout[0].parseInt()-timein[0].parseInt()<0){
+  if (timeout[0]-timein[0]<0){
     window.alert("heyheh");
-    minutes = 60*(24+timeout[0].parseInt()-timein[0].parseInt());
-    minutes = minutes + timeout[1].parseInt()-timein[1].parseInt();
+    minutes = 60*(24+timeout[0]-timein[0]);
+    minutes = minutes + timeout[1]-timein[1];
   }
   else{
     window.alert("heyheh");
-    minutes = 60*(timeout[0].parseInt()-timein[0].parseInt())+timeout[1].parseInt()-timein[1].parseInt();
+    minutes = 60*(timeout[0]-timein[0]))+timeout[1]-timein[1];
   }
   window.alert("heyheh");
   window.alert("minutes=" + minutes);
