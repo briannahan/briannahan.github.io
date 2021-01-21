@@ -32,6 +32,7 @@ function submitRequest(){
   let meeting = document.getElementById("meeting").checked;
   window.alert(timein);
   window.alert(timeout);
+  window.alert(timeout[0]);
   let minutes = 0;
   if (timeout[0].parseInt()-timein[0].parseInt()<0){
     window.alert("heyheh");
